@@ -1,0 +1,32 @@
+<form class="row g-3" [formGroup]="forminput">
+    <div class="col-md-6">
+        <label for="fname" class="form-label">First Name</label>
+        <input type="email" class="form-control" id="fname" formControlName="fname">
+      </div>
+      <div class="col-md-6">
+        <label for="lastname" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lastname" formControlName="lname">
+      </div>
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" formControlName="email">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" formControlName="pwd">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" formControlName="adr">
+    </div>
+  
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+
+ 
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary" (click)="register()">Sign up</button>
+    </div>
+  </form>

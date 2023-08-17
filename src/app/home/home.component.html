@@ -1,0 +1,16 @@
+<p>home works!</p>
+
+<div [style]="propbind">
+    <p>{{vartest}}</p>
+</div>
+
+<div>
+
+    <input type="text" [(ngModel)]="nametest"  name="nametest">
+    <p>{{nametest}}</p>
+
+</div>
+<div>
+    <input type="submit" value="Incrimenter" (click)="incrimenter()">
+    {{counter}}
+</div>

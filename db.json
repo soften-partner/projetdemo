@@ -1,0 +1,36 @@
+{
+
+    "users":[
+
+        {
+            "id":1,
+            "firstname":"med",
+            "lastname":"ali",
+            "email":"med.ali@gmail.com",
+            "pwd":"aaaaa",
+            "adr":"tunis"
+        },
+        
+        {
+            "id":2,
+            "firstname":"mariem",
+            "lastname":"mariem",
+            "email":"meriam.ali@gmail.com",
+            "pwd":"aaaaa",
+            "adr":"tunis"
+        },
+        {
+            "id":3,
+            "firstname":"Anes",
+            "lastname":"Anes",
+            "email":"Anes.ali@gmail.com",
+            "pwd":"aaaaa",
+            "adr":"Ariana"
+        }
+    ],
+    "products":[
+        {
+            
+        }
+    ]
+}
